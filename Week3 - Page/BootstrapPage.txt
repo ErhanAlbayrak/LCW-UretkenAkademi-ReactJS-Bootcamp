@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <style>
+     .right-align{
+       text-align: right;
+     }
+
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Header KÄ±smÄ± -->
+    <div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Bootstrap 4 ile İlk Sayfa</h1>
+  <p>Duyarlılığı görmek için yeniden boyutlandırın.</p> 
+</div>
+    
+    <!-- Navigation Bar KÄ±smÄ± -->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="https://uretkenakademi.com/">Uretken Akademi</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse right-align" id="collapsibleNavbar" style="padding-left:1400px">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/erhan-albayrak-a0488814b/">Erhan Albayrak</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/enes-polat-09671743/?originalSubdomain=tr">Enes Polat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.w3schools.com/bootstrap4/">Kaynakça</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+      <!-- Ä°Ã§erik KÄ±smÄ± -->
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <!-- SayfayÄ± 4e 8 olarak 2ye bÃ¶ldÃ¼k. 4lÃ¼k kÄ±sÄ±m-->
+    <div class="col-sm-4">
+      <h2>Hakkımda</h2>
+      <h6>Fotoğrafım : </h6>
+      <img class="col-sm-12 rounded-circle" src="https://media-exp1.licdn.com/dms/image/C4D03AQH6qelfTaqVhQ/profile-displayphoto-shrink_800_800/0/1591285253944?e=1658966400&v=beta&t=2z_a7P-XTXQyx6sBUeyfvu8RX0_SK9o8GZbdZ0kf07I" alt="Erhan Albayrak FotoÄŸrafÄ±">
+      <p></p>
+      <h3>Bazı Linkler</h3>
+      <p>İşinize Yarayabilir</p>
+      <ul class="nav nav-pills flex-column nav-justified ">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://getbootstrap.com/">Bootstrap</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="https://tr.reactjs.org/">React.JS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.w3schools.com/">w3schools</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link disabled" href="#">Kaldırıldı.</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+
+<!-- SayfayÄ± 4e 8 olarak 2ye bÃ¶ldÃ¼k. 8lik kÄ±sÄ±m-->
+    <div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Hafta 3, 28 Mayıs 2022</h5>
+      <p>HaftanÄ±n Ã–devi</p>
+      <p>Bootstrap 4 kullanarak duyarlı bir web sayfası tasarlamak. Column yapısını anlamak ve tasarlamak.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Third Week, 28 May 2022</h5>
+      <p>
+Designing a responsive web page using Bootstrap 4. To understand and design the column structure.</p>
+    </div>
+  </div>
+</div>
+
+<!-- bootstrap free footer template -->
+
+ <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">Free Bootstrap.</h5>
+                    <p class="small text-muted">Bu bir free bootstrap footer template.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  </body>
+</html>
